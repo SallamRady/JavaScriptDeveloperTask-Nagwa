@@ -11,6 +11,7 @@ import LoadingPage from "../../components/loading/Loading";
 import axios from "axios";
 
 const Result = () => {
+  // Declaration
   let { score, resetIndex } = useContext(QuizContext);
   const [loading, setLoading] = useState(true);
   const [rank, setRank] = useState("0.0");
@@ -33,6 +34,9 @@ const Result = () => {
       setLoading(false);
     });
   }, []);
+  /**
+   * handleTryAgain : handle get new quiz again.
+   */
   const handleTryAgain = () => {
     resetIndex();
     window.location.href = "http://localhost:3000/quiz";

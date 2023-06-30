@@ -37,3 +37,15 @@ Progress is calculated as follows: (number of answered questions / total number 
 Shows the student his/her rank across his/her peers (not his/her score) when he/she reaches progress of 100% (finishes
 the activity).
 *   Has a "Try Again" button that enables the student to repeat the activity again.
+
+## How to run?
+-   git clone from repo.
+-   open terminal on repo directory.
+-   write thiese commands
+    -   cd server
+    -   npm install
+    -   node ./index.js
+    -   cd ../client
+    -   npm install
+    -   npm start
+    -   enjoy :)

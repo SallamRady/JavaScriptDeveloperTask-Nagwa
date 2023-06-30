@@ -10,11 +10,17 @@ import Alert from "@mui/material/Alert";
 import { useNavigate } from "react-router-dom";
 
 const Question = ({ word, pos }) => {
+  // Declarations
   let { index, increaseIndx, setScore } = useContext(QuizContext);
   const [correct, setCorrect] = useState(false);
   const [wrong, setWrong] = useState(false);
   const navigator = useNavigate();
 
+  /**
+   * handleClick
+   * handle user choice and move to next question
+   * @param {*} answer user choice
+   */
   const handleClick = (answer) => {
     if (index < 9) {
       if (answer === pos) {

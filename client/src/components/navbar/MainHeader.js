@@ -14,14 +14,17 @@ import Tooltip from "@mui/material/Tooltip";
 import { Link } from "react-router-dom";
 import "./MainHeader.css";
 
+// navbar pages
 const pages = [
   { id: "1", link: "/", name: "Home" },
   { id: "2", link: "/quiz", name: "Quiz" },
 ];
 
 const MainHeader = () => {
+  // Declaration...
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
+  // methods
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };

@@ -7,9 +7,12 @@ import "./Quiz.css";
 import { QuizContext } from "../../context/quiz";
 
 const Quiz = () => {
+  // Declaration
   let { index } = useContext(QuizContext);
   const [quizions, setQuizions] = useState([]);
   const [loading, setLoading] = useState(true);
+
+  // get words for quiz
   useEffect(() => {
     setLoading(true);
     axios.get("http://localhost:8000/getWords").then((response) => {
