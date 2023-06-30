@@ -1,0 +1,15 @@
+.mainContiner {
+    margin: 4rem 2rem;
+}
+
+.mainContiner h2 {
+    font-size: 2rem;
+    font-weight: var(--typography-heading-weight);
+    letter-spacing: normal;
+    line-height: 1.25;
+}
+
+.mainContiner p {
+    min-height: 1.25rem;
+    font-size: 1.1rem;
+}

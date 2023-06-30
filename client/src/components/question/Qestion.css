@@ -1,0 +1,10 @@
+.questionCard {
+    background-color: #f6f7fb !important;
+    margin: 2rem auto;
+}
+
+.alert {
+    position: relative;
+    width: 25%;
+    margin: 0.3rem;
+}

@@ -1,0 +1,20 @@
+.footer {
+    background-color: #1976d2;
+    min-height: 6rem;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: aliceblue;
+}
+.footer .mail{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}

@@ -1,0 +1,11 @@
+.navLink{
+    font-size: 1.1rem;
+    color: aliceblue;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 0.4rem;
+}
+
+.mnLink{
+    color: black;
+}
